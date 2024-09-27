@@ -25,3 +25,36 @@ Usage: bash python pentest_script.py -t <target_ip_or_domain> -f <report_format>
 -f or --format: Choose the report format, either txt (default) or json.
 -e or --exploit: Optional flag to enable exploitation after scanning.
 Example: bash python pentest_script.py -t 192.168.1.10 -f json --exploit
+
+
+ Usage:
+bash
+python pentest_script.py -t <target_ip_or_domain> -f <report_format> --exploit
+
+
+- `-t` or `--target`: Specify the target IP or domain.
+- `-f` or `--format`: Choose the report format, either `txt` (default) or `json`.
+- `-e` or `--exploit`: Optional flag to enable exploitation after scanning.
+
+ Example:
+bash
+python pentest_script.py -t 192.168.1.10 -f json --exploit
+
+
+ Installation:
+1. Clone the repository:
+   bash
+   git clone https://github.com/14mb1v45h/cyberspace027.git
+   cd cyberspace027
+   
+2. Install the required dependencies:
+   bash
+   pip install -r requirements.txt
+   
+3. Ensure that Nmap, Nikto, and Metasploit are installed on your system.
+
+ Disclaimer:
+This tool is intended for educational purposes and ethical hacking only. Unauthorized use of this script against systems without permission is illegal.
+
+---
+
