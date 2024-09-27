@@ -1,7 +1,7 @@
 # cyberspace027
 Automated Penetration Testing tool
 
-Automated Penetration Testing Script
+
 
 This repository contains a Python-based Automated Penetration Testing Script that streamlines the process of scanning, vulnerability assessment, and optional exploitation on a given target. It integrates powerful security tools like Nmap, Nikto, and Metasploit to automate the process of reconnaissance and penetration testing.
 
